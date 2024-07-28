@@ -16,5 +16,9 @@ def hello():
 def career():
     return "Aspiring full stack developer."
 
+@app.route("/details")
+def career():
+    return "coming soon."
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
