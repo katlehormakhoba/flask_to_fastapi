@@ -13,7 +13,7 @@ def hello():
     return 'I am good, how about you?'
 
 @app.route("/career")
-def main():
+def career():
     return "Aspiring full stack developer."
 
 if __name__ == "__main__":
