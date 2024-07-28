@@ -22,7 +22,7 @@ def details():
 
 @app.route("/status")
 def status():
-    return "learning."
+    return "learning OPENSHIFT."
 
 @app.route("/next")
 def next():
