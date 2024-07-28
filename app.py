@@ -20,5 +20,9 @@ def career():
 def details():
     return "coming soon."
 
+@app.route("/status")
+def details():
+    return "learning."
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
