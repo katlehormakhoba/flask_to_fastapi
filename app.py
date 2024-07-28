@@ -21,7 +21,7 @@ def details():
     return "coming soon."
 
 @app.route("/status")
-def details():
+def status():
     return "learning."
 
 if __name__ == "__main__":
