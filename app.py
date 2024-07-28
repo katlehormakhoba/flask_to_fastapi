@@ -17,7 +17,7 @@ def career():
     return "Aspiring full stack developer."
 
 @app.route("/details")
-def career():
+def details():
     return "coming soon."
 
 if __name__ == "__main__":
