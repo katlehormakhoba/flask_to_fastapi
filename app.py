@@ -24,5 +24,9 @@ def details():
 def status():
     return "learning."
 
+@app.route("/next")
+def next():
+    return "Python Cert."
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
