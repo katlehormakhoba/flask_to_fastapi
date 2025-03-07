@@ -6,6 +6,7 @@ app = Flask(__name__)
 name : str = os.environ.get('MY_NAME')
 @app.route("/")
 def main():
+    name : str = os.environ.get('MY_NAME')
     if len(name) <= 0:
         name = 'Katleho 😂' 
     return f"Welcome {name}!"
